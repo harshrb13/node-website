@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* user-select: none; */
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* Home page css  */
+
+.contentSection{
+    height: 90vh;
+}
+.fitness{
+    height: 100%;
+    /* opacity: 0.3; */
+    filter: brightness(90%);
+}
+.card-img{
+    height: 30vh;
+}
+.card-bg{
+    background-color: darkgray;
+}
+footer{
+       background-color: black;
+       /* margin-top: auto; */
+}
+@media only screen and (max-width: 600px) {
+    .contentSection{
+        height: auto;
+    } 
+    .fitness{
+        height: 40vh;
+    }
+}
+
+
+/* Sign UP page CSS  */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#passVal{
+    color: red;
+}
