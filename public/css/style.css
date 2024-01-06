@@ -27,7 +27,7 @@ body{
 }
 footer{
        background-color: black;
-       /* margin-top: auto; */
+       margin-top: auto;
 }
 @media only screen and (max-width: 600px) {
     .contentSection{
